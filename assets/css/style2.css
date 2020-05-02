@@ -1,0 +1,189 @@
+
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/canyonwedding.jpg");
+    background-size:cover;
+    background-position:  center;
+    background-repeat: no-repeat;
+    
+    background-attachment:fixed;
+
+
+}
+
+
+
+
+
+
+
+ 
+   
+
+.navbar-brand{
+
+    
+font-family: active, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+}
+
+
+a {
+
+    color: white;}
+
+    .parent-containers {
+        display: flex;
+        padding: 20px;
+        text-align: center
+        
+        
+        
+
+     }
+
+     footer{
+         color:white ;
+         background-color: black;
+         width: 100%;
+         height:40px ;
+         
+         
+     }
+
+     h3{
+         color: aliceblue
+         
+     }
+
+
+
+.container-right{
+    color: black;
+    background-color:rgb(166, 221, 221);
+    height:200px ;
+    text-align: center;
+    padding-top: 80px;
+    
+
+}
+
+    
+         
+    
+
+
+#container-bottom-left{
+
+    padding-right: 10px;
+}
+#container-bottom-right{
+    padding-left: 10px
+}
+         
+        
+
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    
+    /* Background styles */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/canyonwedding.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    /* Text styles */
+    font-size: 6em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#date {
+ /* Text styles */
+ font-size: 4em;
+    
+ /* Margins */
+ margin-top: 3px;
+ margin-bottom: 0.5em;
+
+
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: rgb(18, 66, 169);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: amatic-sc, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+    
+    /* Border styles */
+   
+    border-radius: 0px;
+    
+    /* Background styles */
+    background-color: rgba(255, 255, 255, 0.8);
+}
+h1{
+    color:rgb(255, 255, 255);
+    font-family: amatic-sc, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+   
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-family: amatic-sc, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+     /* Text styles */
+     font-size: 9em;
+    
+     /* Margins */
+     margin-top: 0;
+     margin-bottom: 0.5em;
+   
+
+
+
+
+
+
+}
+
