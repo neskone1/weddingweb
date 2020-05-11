@@ -40,7 +40,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
   
-  
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
   
     <!-----------end MDbootrap-->
     
@@ -51,56 +51,61 @@
 
 <body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="./index2.html">S & N</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a> 
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./rsvp.html">RSVP</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1583769621985&key=GRP&app=resvlink">Hotel</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="https://goo.gl/maps/iiP6yfn1VTFPFoA36">Location</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link " href="./gifts.html">Gifts</a>
-                          </li>
-                  </ul>
-                </div>
-              </nav>
+    <nav id="navbar" class="navbar navbar-expand-lg ">
+        <a id="logo-top" class="navbar-brand" href="./index2.html">S & N</a>
+        <button id= " button"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a id="home" class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a> 
+          </li>
+          <li class="nav-item">
+            <a id="rsvp" class="nav-link" href="./rsvp.html">RSVP</a>
+          </li>
+          <li class="nav-item">
+            <a id="hotel" class="nav-link" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1583769621985&key=GRP&app=resvlink">Hotel</a>
+          </li>
+          <li class="nav-item">
+            <a id="location" class="nav-link " href="https://goo.gl/maps/iiP6yfn1VTFPFoA36">Location</a>
+          </li>
+          <li class="nav-item">
+            <a id="gifts" class="nav-link " href="./gifts.html">Gifts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
         
    
         
+             
               <div>
 
-                <img id="foto" >
-
+                <h1 id="gift-text">As we're already lucky enough to have all the physical 
+                  items we need to start our lives together,
+                   we've created a honeymoon 
+                  fund so we can create new experiences that will last a lifetime.
+                  </h1>
               </div>
 
-              <div>
-
-                <h1 id="working">Website Under Construction! </h1>
-              </div>
+              <div id="flyer" class="text-center">
+              
+                  <img id =fotito src="./assets/images/happy.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+                 
+                 </div>
         
-       
+                 <div id="venmopay" class="text-center">
+                 <button id ="venmo" class="btn aqua-gradient">
+                   Venmo
+                  </button>
+                   <button id="Paypal" class="btn aqua-gradient">Paypal</button>
+                   
     
-   
-    <script>
-    $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse','navbar-toggler-icon').collapse('hide');
-});
-    </script>
-    
-        <script src="assets/javascript/app.js "></script>
+                 </div>
+    <script src="./create.js"></script>
     </body>
     
           

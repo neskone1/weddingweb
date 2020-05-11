@@ -1,6 +1,6 @@
 
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/wedding4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/lll.jpg");
     background-size:cover;
     background-position:  fixed;
     background-repeat: no-repeat;
@@ -9,12 +9,24 @@ body{
 
 
 }
+#fotito{
+ 
+    
+    
+    
+
+
+    
+    
+
+    
+}
 
 
 
 #foto{
 
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/wedding3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/wedding1.jpg");
     background-size:cover;
     background-position:  center;
     background-repeat: no-repeat;
@@ -35,8 +47,10 @@ font-style: normal;
   
 }
 
- 
-   
+.fas{
+    color: rgb(255, 255, 255);
+    font-size: 35px
+} 
 
 .navbar-brand{
 
@@ -46,7 +60,63 @@ font-family: active, sans-serif;
 font-weight: 400;
 
 font-style: normal;
+color: aliceblue;
 
+
+}
+
+
+#logo-top{
+    color: rgb(0, 23, 43);
+   font-size: 3rem;
+   background-color: rgb(255, 255, 255);
+  height:50px ;
+   width: 120px;
+  text-align: center;
+padding-bottom: 70px;
+
+
+}
+
+#home{
+    color: aliceblue;
+   font-size: 2rem;
+   left: 60px;
+}
+#rsvp{
+    color: aliceblue;
+    font-size: 2rem;
+    left: 60px;
+
+}
+#hotel{
+
+    color: aliceblue;
+   font-size: 2rem;
+   left: 60px;
+}
+#location{
+
+    color: aliceblue;
+   font-size: 2rem;
+   left: 60px;
+}
+#gifts{
+
+    color: aliceblue;
+   font-size: 2rem;
+   left: 60px;
+}
+
+
+a {
+    font-family: active, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+color: aliceblue;
+   
 
 }
 
@@ -121,7 +191,7 @@ a {
     text-align: center;
     
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/canyonwedding.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/wedding2.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

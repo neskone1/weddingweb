@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/wedding3.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/wedding4.jpg");
     background-size:cover;
     background-position:  fixed;
     background-repeat: no-repeat;
@@ -9,7 +9,21 @@ body{
 
 }
 
+#venmo{
+   
+   height: 50px;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
 
+#Paypal{
+    height: 50px;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
 
 #foto{
 
@@ -21,20 +35,92 @@ body{
     background-attachment:fixed;
 }
 
-#working{
+#gift-text{
 
   text-align: center;
   font-family: active, sans-serif;
 margin-top: 150px;
 font-weight: 400;
+color: rgb(255, 255, 255);
 
 
 font-style: normal;
 
   
 }
+#fotito{
+    height: 450px;
+}
 
- 
+.fas{
+    color: rgb(255, 255, 255);
+    font-size: 35px
+} 
+
+.navbar-brand{
+
+    
+font-family: active, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+color: aliceblue;
+
+
+}
+
+
+#logo-top{
+    color: rgb(0, 23, 43);
+   font-size: 3rem;
+   background-color: rgb(255, 255, 255);
+  height:50px ;
+   width: 120px;
+  text-align: center;
+padding-bottom: 70px;
+
+
+}
+
+#home{
+    color: aliceblue;
+   font-size: 2rem;
+   left: 60px;
+}
+#rsvp{
+    color: aliceblue;
+    font-size: 2rem;
+    left: 60px;
+
+}
+#hotel{
+
+    color: aliceblue;
+   font-size: 2rem;
+   left: 60px;
+}
+#location{
+
+    color: aliceblue;
+   font-size: 2rem;
+   left: 60px;
+}
+#gifts{
+
+    color: aliceblue;
+   font-size: 2rem;
+   left: 60px;
+}
+
+
+a {
+    font-family: active, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+color: aliceblue;
    
 
 .navbar-brand{
