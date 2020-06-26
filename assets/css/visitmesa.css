@@ -186,12 +186,15 @@ color: aliceblue;
         height:30px ;
         text-align: center;
        font-size-adjust: inherit;
-       position: absolute;
-  bottom: 0;
+       margin-top: 150px
+  
         
 
         
         
+    }
+    #mesabotton{
+        margin-bottom:100px;
     }
 
     h6{
@@ -334,3 +337,4 @@ font-style: normal;
 
 
 }
+
