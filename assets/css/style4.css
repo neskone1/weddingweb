@@ -87,11 +87,15 @@ padding-bottom: 70px;
     color: aliceblue;
    font-size: 2rem;
    left: 60px;
+   text-shadow: 2px 2px #0a0f14;
+
 }
 #rsvp{
     color: aliceblue;
     font-size: 2rem;
     left: 60px;
+    text-shadow: 2px 2px #0a0f14;
+
 
 }
 #hotel{
@@ -99,18 +103,31 @@ padding-bottom: 70px;
     color: aliceblue;
    font-size: 2rem;
    left: 60px;
+   text-shadow: 2px 2px #0a0f14;
+
 }
 #location{
 
     color: aliceblue;
    font-size: 2rem;
    left: 60px;
+   text-shadow: 2px 2px #0a0f14;
+
 }
 #gifts{
 
     color: aliceblue;
    font-size: 2rem;
    left: 60px;
+   text-shadow: 2px 2px #0a0f14;
+
+}
+#activities{
+    color: aliceblue;
+    font-size: 2rem;
+    left:60px;
+    text-shadow: 2px 2px #0a0f14;
+
 }
 
 
@@ -138,7 +155,9 @@ font-style: normal;
 
 a {
 
-    color: white;}
+    color: white;
+    
+}
 
     .parent-containers {
         display: flex;
@@ -157,6 +176,7 @@ a {
         height:30px ;
         text-align: center;
        font-size-adjust: inherit;
+       
         
 
         
@@ -280,6 +300,7 @@ h1{
 font-weight: 700;
 
 font-style: normal;
+text-shadow: 2px 2px #0a0f14;
    
 }
 h2{
