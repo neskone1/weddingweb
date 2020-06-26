@@ -1,7 +1,13 @@
 
 
+$('#myCollapsible').on('hide.bs.collapse', function () {
+   
+  })
 
-$('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse','navbar-toggler-icon').collapse('hide');
-});
-
+  function myVenmo() {
+    alert("Still Under Costruction!");
+  }
+  function myPaypal() {
+    alert("Still Under Costruction!");
+  }
+  console.log("Im here")

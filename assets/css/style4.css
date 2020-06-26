@@ -120,7 +120,7 @@ a {
 font-weight: 600;
 
 font-style: normal;
-color: aliceblue;
+color: aliceblue;}
    
 
 .navbar-brand{
@@ -151,13 +151,27 @@ a {
      }
 
      footer{
-         color:white ;
-         background-color: black;
-         width: 100%;
-         height:40px ;
-         
-         
-     }
+        color:white ;
+        background-color:rgb(68, 79, 82);
+        width: 100%;
+        height:30px ;
+        text-align: center;
+       font-size-adjust: inherit;
+        
+
+        
+        
+    }
+
+    h6{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+color: aliceblue;
+padding-top: 6px;
+    }
 
      h3{
          color: aliceblue
