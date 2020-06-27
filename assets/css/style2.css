@@ -50,7 +50,7 @@ a{
 #fotito{
     height:500px ;
     opacity: 0.7;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     
 }
 
@@ -175,6 +175,12 @@ color: aliceblue;
         
         
 
+     }
+
+     #webtitle{
+
+        padding-bottom: 10px;
+        text-shadow: 2px 2px #0a0f14;
      }
 
      footer{
