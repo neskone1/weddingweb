@@ -99,14 +99,22 @@
                 </div>
 
                 
-                <h1 id="gift-text"> Links for Honeymoon Contributions:
+                <h1 id="gift-text"> Link for Honeymoon Contributions:
                 </h1>
                 
                 <div id="venmopay" class="text-center">
-                  <button id ="venmo" class="btn aqua-gradient" onclick="myVenmo()">
-                      Venmo
-                    </button>
-                    <button id="Paypal" class="btn aqua-gradient" onclick="myPaypal()">Paypal</button>
+                  
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <button id="Paypal"  class="btn aqua-gradient" onclick="myPaypal()">gift
+                        <input type="hidden" name="cmd" value="_donations" />
+                        <input type="hidden" name="business" value="NESKONE@OUTLOOK.COM" />
+                        <input type="hidden" name="item_name" value="Honeymoon Contribution" />
+                        <input type="hidden" name="currency_code" value="USD" />
+                        <input type="hidden" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"  name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt=""  src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                        
+                      </button>
+                    </form>
                     
                     
                   </div>
