@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/wedding4.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/local.jpg");
     background-size:cover;
     background-position:  fixed;
     background-repeat: no-repeat;
@@ -61,6 +61,16 @@ body{
     
     background-attachment:fixed;
 }
+#topic{
+    text-align: center;
+    font-size: 100px;
+  
+margin-top: 50px;
+font-weight: 400;
+color: rgb(79, 206, 220);
+text-shadow: 1px 1px #180808;
+font-family: 'Segoe UI',   Verdana, sans-serif;
+}
 
 #gift-text{
 
@@ -75,8 +85,17 @@ font-style: normal;
 
   
 }
-#fotito{
+#fotitos{
     height: 450px;
+    margin-bottom: 10px;
+}
+#fotitoss{
+    height: 450px;
+    margin-bottom: 10px;
+}
+#fotitosss{
+    height: 450px;
+    margin-bottom: 10px;
 }
 
 .fas{
