@@ -9,3 +9,5 @@ $('#myCollapsible').on('hide.bs.collapse', function () {
   }
   
   console.log("Im here")
+
+  
